@@ -1,5 +1,7 @@
 import React from "react";
 import { Linkedin, Instagram, Facebook, Twitter, Mail } from "lucide-react";
+import canadaFlag from "../assets/canada.png";
+import indiaFlag from "../assets/india.png";
 
 const Footer: React.FC = () => (
   <footer data-w-id="d0097dd0-38fa-c03a-8837-218de1a50d47" className="footer-wrapper v1" style={{ backgroundColor: '#000' }}>
@@ -58,7 +60,7 @@ const Footer: React.FC = () => (
             <div id="w-node-d0097dd0-38fa-c03a-8837-218de1a50dbb-e1a50d47">
               <div className="footer-title">OFFICES</div>
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginBottom: '10px' }}>
-                <img src='/src/assets/canada.png' alt="Canada" style={{ width: '24px', height: '20px', marginBottom: '8px' }} />
+                <img src={canadaFlag} alt="Canada" style={{ width: '24px', height: '20px', marginBottom: '8px' }} />
                 <span style={{ color: '#ffffff', fontSize: '18px', fontWeight: 600 }}>Canada Region</span>
               </div>
               <div style={{ fontSize: '15px', lineHeight: 1.6 }}>
@@ -66,7 +68,7 @@ const Footer: React.FC = () => (
                 Toronto, ON, M5G 1Z3
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginTop: '20px', marginBottom: '10px' }}>
-                <img src='/src/assets/india.png' alt="India" style={{ width: '24px', height: '20px', marginBottom: '8px' }} />
+                <img src={indiaFlag} alt="India" style={{ width: '24px', height: '20px', marginBottom: '8px' }} />
                 <span style={{ color: '#ffffff', fontSize: '18px', fontWeight: 600 }}>India Region</span>
               </div>
               <div style={{ fontSize: '15px', lineHeight: 1.6 }}>
@@ -80,14 +82,14 @@ const Footer: React.FC = () => (
               <div className="footer-title">CONTACT US</div>
               <div style={{ display: 'grid', gap: '12px' }}>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-                  <img src="/src/assets/canada.png" alt="Canada" style={{ width: '24px', height: '20px', marginBottom: '8px' }} />
+                  <img src={canadaFlag} alt="Canada" style={{ width: '24px', height: '20px', marginBottom: '8px' }} />
                   <div>
                     <div style={{ fontWeight: 600 }}>+1-437-500-4194</div>
                     <div>+1-437-782-3696</div>
                   </div>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
-                  <img src="/src/assets/india.png" alt="India" style={{ width: '24px', height: '20px', marginBottom: '8px' }} />
+                  <img src={indiaFlag} alt="India" style={{ width: '24px', height: '20px', marginBottom: '8px' }} />
                   <div>
                     <div style={{ fontWeight: 600 }}>+91-7096022911</div>
                     <div>1800-858-1251</div>

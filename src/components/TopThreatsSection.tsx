@@ -1,4 +1,5 @@
 import React from 'react';
+import shieldImage from '../assets/shield1.png';
 import { ScrollAnimation, AnimatedText } from './ScrollAnimations';
 
 interface Threat {
@@ -101,9 +102,9 @@ const TopThreatsSection: React.FC = () => {
                 <div className="relative w-40 h-48 sm:w-48 sm:h-56 md:w-64 md:h-80 flex items-center justify-center">
                   {/* Glowing background */}
                   <div className="absolute inset-0 rounded-full bg-red-500/20 blur-2xl animate-pulse-slow z-0" />
-                  <img 
-                    src="/src/assets/shield1.png" 
-                    alt="Cybersecurity Shield" 
+                  <img
+                    src={shieldImage}
+                    alt="Cybersecurity Shield"
                     className="w-full h-full object-contain drop-shadow-2xl relative z-10"
                   />
                 </div>
