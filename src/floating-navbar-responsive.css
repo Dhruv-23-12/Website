@@ -1,0 +1,72 @@
+/* Responsive adjustments for floating navbar */
+@media (max-width: 1024px) {
+  .navbar-floating-container {
+    width: fit-content;
+    min-width: 600px;
+    max-width: 900px;
+    height: 65px;
+    padding: 0 25px;
+  }
+  
+  .navbar-floating-container:hover {
+    width: fit-content !important;
+    min-width: 700px;
+    max-width: 1000px;
+    transform: translateY(-3px) scale(1.02);
+  }
+  
+  .navbar-floating-container .space-x-10 {
+    gap: 6px !important;
+  }
+  
+  .navbar-floating-container a {
+    padding: 6px 10px !important;
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-floating-container {
+    width: fit-content;
+    min-width: 400px;
+    max-width: 600px;
+    height: 60px;
+    padding: 0 20px;
+  }
+  
+  .navbar-floating-container:hover {
+    width: fit-content !important;
+    min-width: 450px;
+    max-width: 650px;
+    transform: translateY(-3px) scale(1.02);
+  }
+  
+  .navbar-floating-container .space-x-10 {
+    gap: 4px !important;
+  }
+  
+  .navbar-floating-container a {
+    padding: 4px 8px !important;
+    font-size: 13px !important;
+  }
+  
+  .navbar-floating-container img {
+    height: 35px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-floating-container {
+    width: fit-content;
+    min-width: 300px;
+    max-width: 400px;
+    height: 45px;
+    padding: 0 10px;
+  }
+  
+  .navbar-floating-container:hover {
+    width: fit-content;
+    min-width: 320px;
+    max-width: 420px;
+  }
+}
